@@ -64,6 +64,43 @@ i)typeof(NaN)//number
 
 In js NaN is not a number or not a valid number,but it take NaN as number.
 
+<script>
+  console.log(typeof(1));
+
+ //number -it is a number normally ,js also take 1 as the number.
+
+console.log(typeof(1.1));
+
+//number-1.1 these also taken as a number in js
+
+console.log(typeof('1.1'));
+
+//string-these 1.1 is a string because these 1.1 inside the '' so it take as string in js
+
+console.log(typeof(true));
+
+//boolean in js is true or false (or) yes or no (or) on or off //........here the type of () is true .....so these type is boolean.
+
+console.log(typeof(null));
+
+/*null is often used to signify an empty reference to an object. When Brendan Eich created JavaScript, he followed the same paradigm, and it made sense (arguably) to return "object". In fact, the ECMAScript specification defines null as the primitive value that represents the intentional absence of any object value (ECMA-262, 11.4.11).*/
+
+console.log(typeof(undefined));
+
+/*the typeof(undefined) is also a undefined .undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.*/
+
+console.log(typeof([]));
+
+/*empty array [] it can be taken as object in js ..normally array contain some values or object.but here array is empty,it can be taken as object*/
+
+console.log(typeof({}));
+
+/*its can be taken as the object,to differentiate regular objects from arrays*/
+
+console.log(typeof(NaN));
+
+/*In js NaN is not a number or not a valid number,but it take NaN as number.*/
+</script>
 [day2execution.txt](https://github.com/AjithRevildo/day2-js-assesment/files/7212976/day2execution.txt)
 
 
