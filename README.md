@@ -64,6 +64,7 @@ i)typeof(NaN)//number
 
 In js NaN is not a number or not a valid number,but it take NaN as number.
 
+[day2execution.txt](https://github.com/AjithRevildo/day2-js-assesment/files/7212976/day2execution.txt)
 
 
 
