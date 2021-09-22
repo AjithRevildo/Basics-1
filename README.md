@@ -46,7 +46,13 @@ boolean in js is true or false (or) yes or no (or) on or off ........here the ty
 
 e)typeof(null)//object
 
-The reasoning behind this is that null, in contrast with undefined, was (and still is) often used where objects appear. In other words, null is often used to signify an empty reference to an object. When Brendan Eich created JavaScript, he followed the same paradigm, and it made sense (arguably) to return "object". In fact, the ECMAScript specification defines null as the primitive value that represents the intentional absence of any object value (ECMA-262, 11.4.11).
+null is often used to signify an empty reference to an object. When Brendan Eich created JavaScript, he followed the same paradigm, and it made sense (arguably) to return "object". In fact, the ECMAScript specification defines null as the primitive value that represents the intentional absence of any object value (ECMA-262, 11.4.11).
+
+f)typeof(undefined)//undefined
+
+the typeof(undefined) is also a undefined .undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+
+
 
 
 
