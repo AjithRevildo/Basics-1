@@ -30,7 +30,7 @@ As both of them are JavaScript executor, and Node uses the JavaScript engine of 
 
 a)typeof(1) //number
 
-it is a number normally its a number in js also take 1 as the number.
+it is a number normally ,js also take 1 as the number.
 
 b)typeof(1.1)//number
 
@@ -51,6 +51,18 @@ null is often used to signify an empty reference to an object. When Brendan Eich
 f)typeof(undefined)//undefined
 
 the typeof(undefined) is also a undefined .undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+
+g)typeof([])//object
+
+empty array [] it can be taken as object in js ..normally array contain some values or object.but here array is empty,it can be taken as object
+
+h)typeof({})//object
+
+its can be taken as the object,to differentiate regular objects from arrays
+
+i)typeof(NaN)//number
+
+In js NaN is not a number or not a valid number,but it take NaN as number.
 
 
 
